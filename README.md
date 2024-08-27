@@ -1,6 +1,6 @@
 # Fruit Detector for Detectron2 MaskRCNN
 
-Instance segmentation of a scene and output Mask-RCNN predictions as images and json message/file (Agri-OpenCore)
+Instance segmentation of a scene and outputs Mask-RCNN predictions as images and/or json message/file (Agri-OpenCore)
 
 ![Example images](./data/figure/output_fig.png)
 
@@ -12,6 +12,9 @@ Instance segmentation of a scene and output Mask-RCNN predictions as images and 
 
 ```
 https://github.com/usmanzahidi/FruitDetector.git
+pip install -r requirements. txt
+git clone https://github.com/facebookresearch/detectron2.git
+python -m pip install -e detectron2
 ```
 
 ## Usage
